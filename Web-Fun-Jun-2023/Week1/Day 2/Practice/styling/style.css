@@ -1,0 +1,30 @@
+h1
+{
+    background-color: black;
+    color:white;
+    text-align: left;
+    font-weight: bold;
+    font-family: monospace;
+    font-style:italic;
+
+}
+h2
+{
+background-color: purple;
+color:white;
+text-align : center;
+font-family: monospace;
+font-style:italic;
+}
+h3{
+    background-color:skyblue;
+    text-align: right;
+    text-decoration: underline;
+    font-family: monospace;
+    font-style:italic;
+}
+h1 span
+{
+    color:cyan;
+
+}

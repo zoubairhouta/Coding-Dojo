@@ -1,0 +1,101 @@
+*
+{
+    margin : 0;
+    padding : 0;
+}
+
+
+.container 
+{
+display:flex;
+justify-content : center;
+padding : margin : 20px;
+}
+.topnav
+{
+    display : flex;
+    justify-content : space-around;
+    align-items:center;;
+    height:50%;
+     margin-bottom : 20px; 
+}
+button{
+    box-shadow: 2px 3px ;
+    background-color:rgb(255,217,102);
+    font-weight: bold;
+    width : 60px;
+    height : 40px;
+
+    
+}
+
+*
+{
+    margin : 0;
+    padding : 0;
+}
+/* NAVBAR STYLING  */
+nav{
+    background-color : black;
+    width : 900px;
+height: 50px;
+display : flex;
+padding : 10px;
+margin-left : 100px;
+
+}
+/* NAVBAR STYLING */
+h1 
+{
+    color : white;
+    align-self : center;
+    font-size: 36px;
+    
+}
+/* MAIN STYLING */
+.yourFeed
+{
+  font-weight: bold;  
+  font-size: 25px;
+  margin-left : 500px;
+  margin-bottom: 50px;;
+}
+/* container styling */
+.container 
+{
+    display : flex;
+    justify-content: space-between;
+}
+/* My profile styling */
+.myProfile
+{
+    border : 2px black solid;
+    padding : 25px;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    margin-left : 100px;
+}
+#jane
+{
+    width :150px;
+    border-radius: 50%;
+}
+.accounts
+{
+    margin-right : 200px;
+}
+/* Accounts styling */
+.card
+{
+    border : 2px solid black;
+    margin : 20px;
+    padding : 20px;
+}
+.top-card
+{
+    display:flex;
+    justify-content : space-around;
+    align-items: center;
+}

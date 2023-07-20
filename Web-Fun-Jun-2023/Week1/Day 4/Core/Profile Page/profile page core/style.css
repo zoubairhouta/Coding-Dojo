@@ -1,0 +1,169 @@
+*{
+  margin : 0;
+  padding : 0;
+
+}
+
+.container
+{
+    width :100%;
+    height:100%;
+}
+
+
+.top-nav {
+  height: 80px;
+  background-color: black;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  font-weight: lighter;
+  font-size: 1em;
+  width : 100%;
+}
+button {
+  /* flex: 2; */
+  background-color: rgb(23, 162, 184);
+  color : white;
+  width : 100px;
+  height: 80px;
+  border-radius: 20%;
+  font-weight: lighter;
+  font-size: 0.8em;
+  
+
+
+}
+ul > li:nth-of-type(2) {
+  color: white;
+}
+ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+h2 {
+    color: white;
+    left : 100px;
+  }
+  
+  ul > li {
+    list-style-type: none;
+    color: rgb(204, 204, 204);
+  }
+  .profile 
+  {
+    display:flex;
+    flex-direction: column;
+    width :900px;
+    border : 5px solid gray ;
+height
+
+  }
+
+
+  .pro1
+  {
+    width : 100%;
+    height: 100px;
+    background-color :  #17a2b8   
+
+
+  }
+  
+.pro2
+{
+    width : 900px;
+    height : 250px;
+}
+.profilepho
+{
+   border-radius : 50%;
+   width : 100px;
+   position : relative;
+   top : 50px;
+   left:100px;
+   border:5px solid rgb(204, 204, 204);
+}
+.mapmarker
+{
+    border-radius : 50%;
+    width : 30px;
+    height:30px;
+    
+}
+
+.pro2
+{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left:100px;
+    margin-top:30px; 
+}
+.education
+{
+    height : 180px;
+    border:5px solid rgb(204, 204, 204);
+    width :900px;
+}
+.education-1
+{
+    height:50px;
+    background-color: rgb(52, 52, 52);
+    color : white;
+    padding :10px 20px 0px 40px;
+}
+
+.education-2
+{
+    display:flex;
+    flex-direction: column;
+   
+   gap : 20px;
+   padding-left : 100px;
+}
+
+.circle {
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: #413f3f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .imgprof
+  {
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+  }
+
+  .bigblok
+  {
+    display:flex;
+  }
+  .bigblok2
+  {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .poi
+  {
+    height:50px;
+    background-color: rgb(52, 52, 52);
+    color : white;
+    padding :10px 20px 0px 40px;
+  }
+  .kech
+  {
+    border : 5px solid rgb(204, 204, 204);
+  }

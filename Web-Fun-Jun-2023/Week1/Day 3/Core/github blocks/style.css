@@ -1,0 +1,53 @@
+img.octocat {
+    height: 200px;
+}
+p{
+    text-align:center;
+}
+h1
+{
+    text-align:center;
+    font-style : italic;
+    font-family:sans-serif;
+    color:darkslategray
+}
+#container 
+{
+    width : 950px;
+    background-color:rgb(240, 242, 244);
+    margin: 10px auto;
+    padding:20px;
+    border-top-style:solid;
+    border-top-color:black;
+
+   
+}
+*
+{
+    background-color:rgb(243, 246, 249);
+}
+
+#frimages
+{
+    display:flex;
+    justify-content:space-between;
+    background-color:darkmagenta;
+    margin:20px;
+    padding:20px;
+}
+#secimages
+{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    margin:20px;
+    padding:20px;
+}
+#trdimages
+{
+    display:flex;
+    justify-content:space-around;
+    background-color: darkkhaki;
+    margin:20px;
+    padding:20px;
+}

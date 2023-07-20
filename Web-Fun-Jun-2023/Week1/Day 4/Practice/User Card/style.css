@@ -1,0 +1,27 @@
+.container
+{
+    width : 600px;
+    height : 450px;
+    border : solid 5px gray
+}
+.o2{
+    height : 30px;
+}
+#o1
+{
+    width : 150px;
+    height:150px;
+    position : absolute;
+    top : 100px;
+    
+}
+.first-part
+{
+    height:200px;
+    background-color: #17A2B8;
+}
+
+.second-part
+{
+    padding :50px 50px 50px 20px ;
+}

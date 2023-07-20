@@ -1,0 +1,21 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+.btn-search {
+    font-weight: 900;
+    width: 100px;
+    border-radius: 20px;
+    color: #7dc8c8;
+    border: 2px solid #7dc8c8;
+    background-color: #fff;
+}

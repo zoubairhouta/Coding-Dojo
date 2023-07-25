@@ -1,0 +1,8 @@
+<h1>All Users</h1>
+{% for user in all_users %}
+    <p>First Name: {{ user.first_name }}</p>
+    <p>Last Name: {{ user.last_name }}</p>
+    <p>Email: {{ user.email }}</p>
+    <hr>
+{% endfor %}
+<a href="{{ url_for('create') }}">Create a user</a>

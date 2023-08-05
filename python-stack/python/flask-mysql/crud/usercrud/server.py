@@ -1,8 +1,4 @@
-from flask import Flask, render_template, request, redirect
-
-from users import User
-
-app=Flask(__name__)
+from flask_app import app
 
 @app.route('/')
 def index():

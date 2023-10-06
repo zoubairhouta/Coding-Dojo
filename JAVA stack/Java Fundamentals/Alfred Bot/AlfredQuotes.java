@@ -11,33 +11,34 @@ public class AlfredQuotes {
         return String.format("Hello, %s. Lovely to see you.", name);
     }
 
-    // this is done ↑↑
+    // this is done ↑↑↑
     
     public String dateAnnouncement() {
         String dateNow = (new Date().toString());
         return String .format("It is currently %s ",dateNow );
     }
     
-    public String respondBeforeAlexis(String conversation) {
+//     public String respondBeforeAlexis(String conversation) {
       
-           if(conversation.indexOf("Alexis") >= 0)
-           {
+//            if(conversation.indexOf("Alexis") >= 0)
+//            {
                
-               return "Right away, sir. She certainly isn't sophisticated enough for that.";
-           }
-             else if  (conversation.indexOf("Alfred") >= 0){
+//                return "Right away, sir. She certainly isn't sophisticated enough for that.";
+//            }
+//              else if  (conversation.indexOf("Alfred") >= 0){
 
-                 return "At your service. As you wish, naturally.";
-             }
+//                  return "At your service. As you wish, naturally.";
+//              }
          
-          else{
- return "Right. And with that I shall retire.";
-          }
+//           else{
+//  return "Right. And with that I shall retire.";
+//           }
              
-          }
+//           }
       
     
-     String guestGreeting(String name, String dayPeriod ) {
+
+    public String guestGreeting(String name, String dayPeriod ) {
         
         return String.format("Hello, %1$s, good %2$s Lovely to see you.", name, dayPeriod );
     }

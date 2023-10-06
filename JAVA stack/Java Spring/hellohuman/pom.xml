@@ -8,11 +8,11 @@
 		<version>3.1.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.ahmedbelhout.daikichiroutes</groupId>
-	<artifactId>daikichiRoute</artifactId>
+	<groupId>com.ahmedbelhout.hellohuman</groupId>
+	<artifactId>hellohuman</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>daikichiRoute</name>
+	<name>hellohuman</name>
 	<description>daikichi routes assignment</description>
 	<properties>
 		<java.version>17</java.version>

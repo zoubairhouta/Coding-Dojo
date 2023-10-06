@@ -1,13 +1,13 @@
-package com.ahmedbelhout.daikichiroutes;
+package com.ahmedbelhout.hellohuman;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DaikichiRouteApplication {
+public class HellohumanApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DaikichiRouteApplication.class, args);
+		SpringApplication.run(HellohumanApplication.class, args);
 	}
 
 }

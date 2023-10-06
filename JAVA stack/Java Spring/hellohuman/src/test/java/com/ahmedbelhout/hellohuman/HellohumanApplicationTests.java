@@ -1,10 +1,10 @@
-package com.ahmedbelhout.daikichiroutes;
+package com.ahmedbelhout.hellohuman;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DaikichiRouteApplicationTests {
+class HellohumanApplicationTests {
 
 	@Test
 	void contextLoads() {

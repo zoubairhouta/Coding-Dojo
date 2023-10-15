@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@500;700&display=swap");
+
+.monoton {
+	text-align: center;
+	font-family: "Monoton";
+	font-size: 6rem;
+	text-transform: uppercase;
+
+}
+
+th,td{
+	text-align: center;
+}
+.actions{
+	display: flex;
+	justify-content: center
+}
